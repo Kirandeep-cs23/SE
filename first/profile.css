@@ -1,0 +1,33 @@
+.col{
+  background-color: whitesmoke;
+}
+
+.block{
+  width: 40%;
+  height: 15%;
+  border: 1px;
+  border-radius: 05px;
+  padding: 8px 15px 8px 15px;
+  margin: 10px 0px 15px 0px;
+  box-shadow: 1px 1px 2px 1px grey;
+}
+
+.info{
+  font-size: 25px;
+} 
+
+.details{
+  text-align: end;
+}
+.button{
+  width: 15%;
+  height: 5%;
+  border: 1px solid blueviolet;
+  border-radius: 05px;
+  padding: 8px 15px 8px 15px;
+  margin: 10px 0px 15px 0px;
+  box-shadow: 1px 1px 2px 1px grey;
+  text-align: end;
+  color: white;
+  background-color: blue;
+}

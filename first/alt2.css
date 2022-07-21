@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 40%;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  align-items: center;
+}
+body{
+ background-color: black;  
+ position: relative;
+ margin: 0;
+}
+
+body::after {
+  display: block;
+  height: 60px;
+}
+header{
+  background-color: black;
+}
+main{
+  background-color: black;
+
+}
+
+.clm{
+    position: relative;
+    float:left;
+    width:14.28%;
+    padding:3px;
+    text-align: center;
+    font-weight: bold;
+    color: greenyellow;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+ 
+  }
+  .button {
+    background-color: white;
+    border: none;
+border-radius: 10px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  .clm:hover .image {
+    opacity: 0.3;
+  }
+  
+  .clm:hover .middle {
+    opacity: 1;
+  }
+.text{
+    color:black ;
+    background-color: white;
+    font-size: 12px;
+    padding: 12px 24px;
+    text-align: center;
+
+}
+.nav{
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.icon{
+  padding: 2% 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}  
+.nav img{
+  width: 150px;
+}
+.icon i{
+  color: white;
+}
+.nav li{
+  display: inline;
+}
+.nav li p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  margin-bottom: -100px;
+  clear: both;
+    background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+  font-family: "open Sans";
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.footer-bottom{
+  background: black;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+  

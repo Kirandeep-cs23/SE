@@ -1,0 +1,99 @@
+.header{
+      width: 100%;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-color: #7c4dff;
+    height: 500px;
+}
+.navbar-nav > li{
+    font-size: large;
+    padding-left:25px;
+    padding-right:25px;
+  }
+  footer{
+    background-color: black;
+    width: 100%;
+    font-family: "open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3rem
+}
+.footer-content p{
+    max-width: 500px;
+font-family: sans-serif;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;   
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: black;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+ul.socials{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+}
+.icon{
+    padding: 2% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}  
